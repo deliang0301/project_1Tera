@@ -1,0 +1,62 @@
+@import "tailwindcss";
+
+@layer base {
+  html {
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    scroll-behavior: smooth;
+    color: #e2e8f0; /* Crisp metallic silver body */
+  }
+
+  body {
+    background-color: #050811;
+    color: #e2e8f0; /* Elegant silver text */
+  }
+
+  h1, h2, h3, h4, .font-display {
+    font-family: 'Outfit', 'Plus Jakarta Sans', system-ui, sans-serif;
+    color: #fef08a; /* Warm yellow-silver primary header tint */
+  }
+
+  code, pre, .font-mono {
+    font-family: 'JetBrains Mono', monospace;
+  }
+}
+
+/* Custom Yellow-Silver Gradient Utilities */
+.text-yellow-silver {
+  background: linear-gradient(135deg, #fef08a 0%, #fef9c3 40%, #e2e8f0 75%, #cbd5e1 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.text-silver-bright {
+  color: #f1f5f9;
+}
+
+.text-silver-body {
+  color: #cbd5e1;
+}
+
+.text-silver-muted {
+  color: #94a3b8;
+}
+
+.text-gold-accent {
+  color: #facc15;
+}
+
+/* Custom scrollbars with silver and gold accents */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #050811;
+}
+::-webkit-scrollbar-thumb {
+  background: #1e293b;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #334155;
+}

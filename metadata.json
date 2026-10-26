@@ -1,0 +1,6 @@
+{
+  "name": "TerraNova - Jelajah Energi Masa Depan",
+  "description": "Platform edukasi interaktif teknologi energi baru dan terbarukan (EBT) masa depan: perovskite solar, floating offshore wind, green hydrogen, smart grid, simulator, dan game edukasi.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
